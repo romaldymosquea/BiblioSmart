@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "BiblioSmart.Web/1.0.0": {
+        "dependencies": {
+          "BiblioSmart.Core": "1.0.0"
+        },
+        "runtime": {
+          "BiblioSmart.Web.dll": {}
+        }
+      },
+      "BiblioSmart.Core/1.0.0": {
+        "runtime": {
+          "BiblioSmart.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BiblioSmart.Web/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BiblioSmart.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
